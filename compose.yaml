@@ -1,0 +1,8 @@
+services:
+  allmon3:
+    image: m8wat/allmon3:latest
+    container_name: allmon3
+    network_mode: host
+    volumes:
+      - "./etc/allmon3.ini:/etc/allmon3/allmon3.ini"
+      - "./etc/users:/etc/allmon3/users"
