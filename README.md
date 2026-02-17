@@ -32,6 +32,8 @@ If you are trying to access the dashboard from another device on the same LAN, u
 
     http://192.168.0.5:8008
 
+or
+
     http://myserver:8008
 
 
