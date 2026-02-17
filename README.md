@@ -2,9 +2,9 @@
 
 This is my AllStarLink Allmon3 Dashboard Docker Image based on Debian 13-slim (Trixie).
 
-This has been inspired by, but heavily modified from, the original Dockerfile from the AllStarLink [Allmon3 Repository](https://github.com/AllStarLink/Allmon3) for my use case.
+This has been inspired by, but heavily modified from, the original Dockerfile and associated from the [AllStarLink Allmon3 Repository](https://github.com/AllStarLink/Allmon3) for my use case.
 
-The main modifications are the integrating of all code into the Dockerfile itself (origianally used several external scripts), and changing the dashboard location from http://127.0.0.1/allmon3/ to http://127.0.0.1:8008/. This is to allow a simpler integration with my reverse proxy setup.
+The main modifications are the integrating of all code into the Dockerfile itself (which originally used several external scripts), and changing the dashboard location from http://127.0.0.1/allmon3/ to http://127.0.0.1:8008/. This is to allow a simpler integration with my reverse proxy setup.
 
 ## How to Use
 
@@ -28,8 +28,14 @@ Access the dashboard at (Don't forget to add a user - see below):
 
     http://127.0.0.1:8008/
 
+If you are trying to access the dashboard from another device on the same LAN, use the hosts IP address or hostname and port 8008:
 
-## Managing Users - Remember to restart the container once you have finished using:
+    http://192.168.0.5:8008
+
+    http://myserver:8008
+
+
+## Managing Users - Remember to Restart the Container When Finished
 
 ### Add User(s) / Change User Password
 
