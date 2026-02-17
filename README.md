@@ -28,7 +28,9 @@ Access the dashboard at (Don't forget to add a user - see below):
 
     http://127.0.0.1:8008/
 
-If you are trying to access the dashboard from another device on the same LAN, use the hosts IP address or hostname and port 8008:
+If you are trying to access the dashboard from another device on the same LAN, use the hosts IP address or hostname and port 8008.
+
+Examples:
 
     http://192.168.0.5:8008
 
