@@ -41,7 +41,7 @@ or
 
 ## Managing Users - Remember to Restart the Container When Finished
 
-### Add User(s) / Change User Password
+### Add User / Change User Password
 
 Use the following command to add a user or change a current users password. Replace <USER> with your chosen username, and enter a password of your choosing when prompted:
 
@@ -52,7 +52,7 @@ To apply the additions/changes, you must restart the container using the followi
     docker container restart allmon3
 
 
-### Remove User(s)
+### Remove User
 
 To remove a user, use the following command, replacing <USER> with the username you want to remove:
 
