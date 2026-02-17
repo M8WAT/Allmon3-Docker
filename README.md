@@ -61,3 +61,23 @@ To remove a user, use the following command, replacing <USER> with the username 
 Restart the container to apply the changes:
 
     docker container restart allmon3
+
+# Create Your Own Docker Image
+
+This is not necessary, but if you would like to create your own Docker image you must:
+
+Clone this repository to your desired location:
+
+    git clone https://github.com/M8WAT/Allmon3-Docker.git
+
+Open the folder:
+
+    cd Allmon3-Docker
+
+Edit the Dockerfile as required and then build the image replacing the tag elements as necessary:
+
+    docker build -t <YOURDOCKERUSERNAME>/<IMAGENAME>:<VERSION>
+
+Example:
+
+    docker build -t m8wat/allmon3:latest
